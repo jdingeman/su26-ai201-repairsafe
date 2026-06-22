@@ -25,11 +25,11 @@ RepairSafe is a home repair Q&A tool with a safety classification layer. Before 
 
 ## What to Implement
 
-| Milestone | File | Function | Description |
-|-----------|------|----------|-------------|
-| 1 | `safety.py` | `classify_safety_tier()` | Classify question into safe / caution / refuse |
-| 2 | `responder.py` | `generate_safe_response()` | Generate tier-appropriate response |
-| 3 | `auditor.py` | `log_interaction()` | Append interaction record to audit log |
+| Milestone | File           | Function                   | Description                                    |
+| --------- | -------------- | -------------------------- | ---------------------------------------------- |
+| 1         | `safety.py`    | `classify_safety_tier()`   | Classify question into safe / caution / refuse |
+| 2         | `responder.py` | `generate_safe_response()` | Generate tier-appropriate response             |
+| 3         | `auditor.py`   | `log_interaction()`        | Append interaction record to audit log         |
 
 Complete each spec in `specs/` before implementing the corresponding function.
 
@@ -53,3 +53,7 @@ ai201-lab4-repairsafe-starter/
     ├── responder-spec.md   ← Milestone 2 spec
     └── auditor-spec.md     ← Milestone 3 spec
 ```
+
+## Walkthrough
+
+![](walkthrough.gif)
